@@ -17,8 +17,7 @@
     "test": "standard"
   },
   "dependencies": {
-    "mediasource": "^1.0.0",
-    "webtorrent": "^0.60.1"
+    "webtorrent": "valeriangalliat/webtorrent#feature/render-to"
   },
   "devDependencies": {
     "browserify": "^11.0.1",
