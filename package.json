@@ -1,0 +1,28 @@
+{
+  "name": "webtorrent-handler",
+  "version": "0.1.0",
+  "description": "Integrate BitTorrent resources in your web pages over WebTorrent.",
+  "homepage": "https://github.com/valeriangalliat/webtorrent-handler",
+  "license": "Unlicense",
+  "author": {
+    "name": "Valérian Galliat",
+    "url": "http://val.codejam.info/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valeriangalliat/webtorrent-handler.git"
+  },
+  "scripts": {
+    "build": "browserify . | uglifyjs -m > webtorrent-handler.min.js",
+    "test": "standard"
+  },
+  "dependencies": {
+    "mediasource": "^1.0.0",
+    "webtorrent": "^0.60.1"
+  },
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "standard": "^5.1.1",
+    "uglify-js": "^2.4.24"
+  }
+}
